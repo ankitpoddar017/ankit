@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d3009e68a3.js" crossorigin="anonymous"></script>
+    <title>Popup Form | Message box</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <input type="checkbox" id="show">
+    <label for="show" class="show-btn">
+        <a href="https://www.messenger.com/t/225822807289095">
+        <i class="fa-brands fa-facebook-messenger"></i>
+       
+          
+         </a>
+
+    </label>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '9812372813',
+            xfbml      : true,
+            version    : 'v2.6'
+          });
+        };
+  
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '9812372813',
+            xfbml      : true,
+            version    : 'v2.6'
+          });
+        };
+  
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+  
+      <div class="fb-page"
+           data-href="https://www.messenger.com/t/100041304249052"
+           data-tabs="messages"
+           data-width="400"
+           data-height="300"
+           data-small-header="true">
+        <div class="fb-xfbml-parse-ignore">
+          <blockquote></blockquote>
+        </div>
+      </div>
+  
+      <div class="fb-messengermessageus"
+           messenger_app_id="9812372813"
+           page_id="Kashyap_Technical_Academy"
+           color="blue"
+           size="large">
+      </div>
+    <div class="wrapper">
+        <h5>Let's Chat!! - Online</h5>
+        <p>Please fill form below to start chatting with the next available agent. </p>
+        <form>
+            <input type="text" placeholder="Enter Your Name">        
+            <input type="email" placeholder="Enter Your Email">
+            <input type="text" placeholder="Enter Your Queries">
+        <button>Start Chat</button>
+        
+        
+        </form>
+
+    </div>
+</body>
+</html>
